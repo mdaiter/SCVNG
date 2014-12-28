@@ -1,0 +1,1 @@
+../../Coinbase/Classes/CBAccount.h

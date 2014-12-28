@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Coinbase (0.4):
+    - AFNetworking (~> 2.0)
+  - CoreBitcoin (0.3.0):
+    - OpenSSL-Universal (= 1.0.1.h)
+  - Firebase (1.1.12)
+  - ILTranslucentView (0.0.1)
+  - MDCSwipeToChoose (0.2.1)
+  - MLPAutoCompleteTextField (1.5)
+  - MSDynamicsDrawerViewController (1.5.1)
+  - OpenSSL-Universal (1.0.1.h)
+  - Underscore.m (0.2.1)
+
+DEPENDENCIES:
+  - Coinbase
+  - CoreBitcoin (from `https://raw.github.com/oleganza/CoreBitcoin/master/CoreBitcoin.podspec`)
+  - Firebase (>= 1.1.12)
+  - ILTranslucentView
+  - MDCSwipeToChoose
+  - MLPAutoCompleteTextField (~> 1.5)
+  - MSDynamicsDrawerViewController
+  - Underscore.m
+
+EXTERNAL SOURCES:
+  CoreBitcoin:
+    :podspec: https://raw.github.com/oleganza/CoreBitcoin/master/CoreBitcoin.podspec
+
+SPEC CHECKSUMS:
+  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  Coinbase: b0ef6c806ced8234f9d5afee7e252152f2de48ec
+  CoreBitcoin: 351ea65d3e4f3f6fd7f01303fb23c333fd714121
+  Firebase: 26ca966dea982f29a4685f7fa8f596d56e5487ad
+  ILTranslucentView: fa20cc89ceb451b54ae3d993c7dfb789873ef153
+  MDCSwipeToChoose: 54f7b1675eff182cdc46c582360c7fca4c766a67
+  MLPAutoCompleteTextField: 5e440aa7b139258f779db3375dd486421959be15
+  MSDynamicsDrawerViewController: 0002059480a4b5ddde7eafbafb958a79a9b0ffaf
+  OpenSSL-Universal: 9c112508615ed33bb35f730eed820e93175a9dec
+  Underscore.m: f99c166a9fdccfb5069085b6b4263c04b817fc9f
+
+COCOAPODS: 0.33.1
